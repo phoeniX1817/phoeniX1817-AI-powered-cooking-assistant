@@ -12,7 +12,7 @@ import java.util.*;
 public class GeminiService {
 
      // Read API key from properties file
-    private String apiKey="AIzaSyBjM6xzUgpwQipc90eOoiRCGeZ4uVxLcGg";
+    private String apiKey="Your-api-key";
 
     private static final String MODEL_NAME = "models/gemini-1.5-pro-002";
     private static final String API_URL = "https://generativelanguage.googleapis.com/v1/" + MODEL_NAME + ":generateContent?key=";
